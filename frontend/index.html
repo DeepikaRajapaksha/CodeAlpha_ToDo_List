@@ -12,18 +12,37 @@
         <nav class="sidebar">
             <h2>To-Do List</h2>
             <ul>
-                <li><a href="#">To-Do</a></li>
-                <li><a href="#">Doing</a></li>
-                <li><a href="#">Done</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
                 <li><a href="#">Add Task</a></li>
+                <li><a href="#">Logout</a></li>
             </ul>
         </nav>
 
         <!-- Main content -->
         <div class="main-content">
             <h1>Manage Your Tasks</h1>
-            <div class="task-list" id="tasks">
-                <!-- Tasks will be dynamically inserted here -->
+            
+            <!-- Task Columns: To-Do, Doing, Done -->
+            <div class="task-columns">
+                <div class="column">
+                    <h2>To-Do</h2>
+                    <div class="task-box" id="todo-tasks">
+                        <!-- To-Do tasks will go here -->
+                    </div>
+                </div>
+                <div class="column">
+                    <h2>Doing</h2>
+                    <div class="task-box" id="doing-tasks">
+                        <!-- Doing tasks will go here -->
+                    </div>
+                </div>
+                <div class="column">
+                    <h2>Done</h2>
+                    <div class="task-box" id="done-tasks">
+                        <!-- Done tasks will go here -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -31,4 +50,5 @@
     <script src="js/tasks.js"></script>
 </body>
 </html>
+
 

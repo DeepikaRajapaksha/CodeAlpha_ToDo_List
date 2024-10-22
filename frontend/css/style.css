@@ -126,3 +126,37 @@ h1 {
     color: #333;
 }
 
+/* Task columns styling */
+.task-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Individual column styling */
+.column {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.column h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.task-box {
+    min-height: 200px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add some margin between tasks */
+.task-box div {
+    margin-bottom: 10px;
+}
